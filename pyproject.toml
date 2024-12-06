@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wav_tokenizer"
-version = "1.0.1"
+version = "1.0.2"
 description = "Songsterr AI library"
 dependencies = [
     "torch==2.0.0",
@@ -24,7 +24,7 @@ dependencies = [
 #    "fairseq",
     "torchcrepe",
     "librosa",
-    "pesq"
+#    "pesq"
 ]
 
 [tool.setuptools.packages.find]
