@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wav_tokenizer"
-version = "1.0.4"
+version = "1.0.5"
 description = "Songsterr AI library"
 dependencies = [
     "torch==2.3.0",
@@ -12,7 +12,7 @@ dependencies = [
     "scipy==1.11.4",
     "einops==0.7.0",
     "pyyaml==6.0.1",
-    "huggingface_hub==0.23.0",
+    "huggingface_hub==0.23.2",
     "matplotlib==3.7.2",
     "transformers==4.46.3",
     "pytorch-lightning==1.8.6",
