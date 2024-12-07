@@ -2,7 +2,6 @@ from typing import Tuple, Any, Union, Dict
 
 import torch
 import yaml
-from huggingface_hub import hf_hub_download
 from torch import nn
 from decoder.feature_extractors import FeatureExtractor, EncodecFeatures
 from decoder.heads import FourierHead
